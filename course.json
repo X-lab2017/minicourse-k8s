@@ -10,24 +10,47 @@
       "privileged": true,
       "steps": [
         {
-          "preload": "scripts/validate.js",
           "title": "Kubernetes简介",
           "text": "setup/6.0-k8s.md"
         },
         {
-          "preload": "scripts/validate.js",
           "title": "实验1. Minikube基本操作",
           "text": "setup/6.1-k8s.md"
         },
         {
-          "preload": "scripts/validate.js",
           "title": "实验2. 通过kubectl部署容器",
           "text": "setup/6.2-k8s.md"
         },
         {
-          "preload": "scripts/validate.js",
           "title": "实验3. 通过YAML文件部署容器",
           "text": "setup/6.3-k8s.md"
+        }
+      ]
+    },
+    {
+      "title": "Kubeless基本操作",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:kubeless",
+      "privileged": true,
+      "steps": [
+        {
+          "title": "步骤1 - 安装Kubeless",
+          "text": "setup/7.1.md"
+        },
+        {
+          "title": "步骤2 - 部署 Python Function",
+          "text": "setup/7.2.md"
+        },
+        {
+          "title": "步骤3 - 调用 Python Function",
+          "text": "setup/7.3.md"
+        },
+        {
+          "title": "步骤4 - 查看日志、描述信息及更新Function",
+          "text": "setup/7.4.md"
+        },
+        {
+          "title": "步骤5 - 删除Function",
+          "text": "setup/7.5.md"
         }
       ]
     }
